@@ -64,7 +64,7 @@ function checkRateLimit(apiKey, tokens) {
 
 // Health check
 app.get('/v1/health', (req, res) => {
-  res.json({ status: 'ok', service: 'DeepToken.fit API', timestamp: new Date().ISOString() });
+  res.json({ status: 'ok', service: 'DeepToken.fit API', timestamp: new Date().toISOString() });
 });
 
 // Models list
