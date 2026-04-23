@@ -1,0 +1,11 @@
+{
+  "name": "deeptoken-fit",
+  "version": "2.0.0",
+  "description": "DeepToken.fit - Affordable Chinese AI API for developers worldwide",
+  "buildCommand": "echo 'Static site - no build needed'",
+  "outputDirectory": ".",
+  "routes": [
+    { "handle": "filesystem" },
+    { "handle": "static" }
+  ]
+}
